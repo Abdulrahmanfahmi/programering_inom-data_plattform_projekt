@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables (CRITICAL)
+.env
+.env.*
+
+# Database and Docker volumes
+postgres_data/
+db_data/
+data/
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
